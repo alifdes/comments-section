@@ -1,5 +1,6 @@
 {
   "name": "comments-section",
+  "homepage": "https://alifdes.github.io/comments/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
