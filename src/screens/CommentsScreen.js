@@ -51,9 +51,9 @@ const CommentsScreen = () => {
 
   return (
     <Container>
-    {comments.map((comment) => (
+    {comments.map((comment,index) => (
       <>
-        <CommentCard data={comment} currentUser={currentUser.username}  />
+        <CommentCard key={index} data={comment} currentUser={currentUser.username}  />
         {comment.replies.length > 0 && (
           <SubContainer>
             {comment.replies.map((reply) => (

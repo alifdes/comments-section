@@ -82,7 +82,7 @@ const CommentUser = styled.span`
   font-weight: bold;
   padding-left: 8px;
 `;
-const CommentCard = ({ data, currentUser,onAddReply }) => {
+const CommentCard = ({key, data, currentUser,onAddReply }) => {
   const [editedComment, setEditedComment] = useState(null);
   const [isEdit, setEdited] = useState(false);
   const [showDialog, setShowDialog] = useState(false);
